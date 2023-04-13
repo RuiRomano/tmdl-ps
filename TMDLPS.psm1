@@ -1,3 +1,5 @@
+#requires -Version 7
+
 $currentPath = (Split-Path $MyInvocation.MyCommand.Definition -Parent)
 
 Write-Host "Loading Module Assemblies"
